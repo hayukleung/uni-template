@@ -1,5 +1,5 @@
 <template>
-  <view>main</view>
+  <view class="main">main</view>
 </template>
 
 <script>
@@ -8,6 +8,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.main {
+  color: $uni-color-primary;
+}
 </style>

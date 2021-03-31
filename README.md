@@ -1,4 +1,4 @@
-# uni-framework
+# uniapp 标准开发模板
 
 ## Project setup
 ```
