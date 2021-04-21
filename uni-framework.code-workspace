@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "path-intellisense.mappings": {
+      "@": "${workspaceRoot}/src"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "christian-kohler.path-intellisense"
+    ]
+  }
+}

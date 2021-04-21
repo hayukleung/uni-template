@@ -1,0 +1,59 @@
+:root {
+    --padding-horizontal: 24rpx;
+    --padding-vertical: 20rpx;
+    --padding-vertical-half: 10rpx;
+    --color-title: #222;
+    --color-key: #222;
+    --color-value: #333;
+    --color-hint: #999;
+    --font-size-title: 18px;
+    --font-size-key: 16px;
+    --font-size-value: 16px;
+}
+.bus-title {
+    font-size: var(--font-size-title);
+    color: var(--color-title);
+    font-weight: bold;
+    background-color: #E0E0E0;
+}
+.bus-title-hover {
+    font-size: var(--font-size-title);
+    color: #444444;
+    font-weight: bold;
+    background-color: #d0d0d0;
+}
+.key {
+    font-size: var(--font-size-key);
+    color: var(--color-key);
+    font-weight: bold;
+    margin: var(--padding-vertical) var(--padding-horizontal) var(--padding-vertical) var(--padding-horizontal);
+}
+.value {
+    font-size: var(--font-size-value);
+    color: var(--color-value);
+    margin: var(--padding-vertical) var(--padding-horizontal) var(--padding-vertical) var(--padding-horizontal);
+}
+.hint {
+    font-size: var(--font-size-value);
+    color: var(--color-hint);
+    margin: var(--padding-vertical) var(--padding-horizontal) var(--padding-vertical) var(--padding-horizontal);
+}
+.required {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.off {
+    background-color: white;
+}
+.on {
+    background-color: #e2e2e2;
+}
+.divider {
+    background-color: #f2f2f2;
+    height: 0.5rpx;
+}
+.arrow-right {
+    width: 40rpx;
+    padding: 10rpx;
+}
